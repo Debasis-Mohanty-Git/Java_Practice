@@ -12,6 +12,7 @@ public class Maximum_Element_In_Array {
             nums[i]=sc.nextInt();
         }
 
+        
         int max=nums[0];
         for (int i=1;i<n;i++){
             if(nums[i]>max){
